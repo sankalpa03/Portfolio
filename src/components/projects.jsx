@@ -2,17 +2,23 @@ import React from "react";
 import "../App.css";
 
 const projects = [
-  {
-  title: "Web_Kitchen",
-  desc: "A modern recipe web application built with React.js. It features user authentication, recipe management, ingredient-based search, and a beautifully designed recipe catalog for easy exploration and cooking inspiration.",
+ {
+  title: "Web Kitchen",
+  desc: "A modern recipe web application built using React.js with user authentication, recipe management, and ingredient search.",
   link: "https://github.com/sankalpa03/Web_Kitchen_Frontend.git"
-  },
+},
+{
+  title: "My Pasal",
+  desc: "A modern web application built using React.js for creating, managing, and exploring glossary terms with search and categories.",
+  link: "https://github.com/sankalpa03/my_pasal.git"
+},
+{
+  title: "Portfolio Website",
+  desc: "A responsive personal portfolio website built using React and modern CSS, showcasing projects and skills.",
+  link: "https://github.com/sankalpa03/portfolio"
+}
 
-  {
-    title: "Portfolio Website",
-    desc: "A responsive personal portfolio website built using React and modern CSS, showcasing my projects and skills.",
-    link: "https://github.com/sankalpa03/portfolio",
-  }
+
 ]
 
 
