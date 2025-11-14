@@ -14,6 +14,7 @@ const Footer = () => {
 
         {/* Email */}
         <a href="mailto:sankalpa085@gmail.com" target="_blank" rel="noreferrer">
+        
           <MdEmail />
         </a>
 
