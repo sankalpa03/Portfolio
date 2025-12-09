@@ -13,6 +13,12 @@ const ContactUs = () => {
           <p>sankalpa085@gmail.com</p>
           <a href="mailto:sankalpa085@gmail.com">Send Email</a>
         </div>
+        <div  className="contact-card">
+          <h3>Phone</h3>
+          <p>+977-9765944251</p>
+          <a href="tel:+9779765944251">Call Now</a>
+
+        </div>
         <div className="contact-card">
           <h3>Social Media</h3>
           <div className="social-icons">
@@ -26,12 +32,11 @@ const ContactUs = () => {
            <a href="https://www.linkedin.com/in/sankalpa-bhandaari/" target="_blank" rel="noreferrer">
            <FaLinkedin/>
             </a>
+            </div>
+
+
+           
           </div>
-        </div>
-        <div className="contact-card">
-          <h3>Address</h3>
-          <p>Pokhara, Nepal</p>
-        </div>
       </div>
     </section>
   );

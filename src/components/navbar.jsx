@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="nav-left">
         <a href="#home">
           <img
-            src="/logo1.png"
+            src="/logo.png"
             alt="Logo"
             className="nav-profile"
           />

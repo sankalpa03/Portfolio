@@ -2,30 +2,37 @@ import React from "react";
 import "../App.css";
 
 const projects = [
+  {
+  title: "Cable Car Booking",
+  desc: "A simple website built using HTML, CSS, and JavaScript for booking cable car tickets. Users can book tickets and download them as PDF.",
+  link: "https://github.com/sankalpa03/CableCar_booking.git",
+  image: "/project1.png"
+},
  {
   title: "Web Kitchen",
   desc: "A modern recipe web application built using React.js with user authentication, recipe management, and ingredient search.",
-  link: "https://github.com/sankalpa03/Web_Kitchen_Frontend.git"
-},
-{
-  title: "My Pasal",
-  desc: "A modern web application built using React.js for creating, managing, and exploring glossary terms with search and categories.",
-  link: "https://github.com/sankalpa03/my_pasal.git"
+  link: "https://github.com/sankalpa03/Web_Kitchen_Frontend.git",
+  image: "/project2.png" 
 },
 
 {
-  title: "Portfolio Website",
-  desc: "A responsive personal portfolio website built using React and modern CSS, showcasing projects and skills.",
-  link: "https://github.com/sankalpa03/portfolio"
+  title: "My Pasal",
+  desc: "A modern web application built using React.js for creating, managing, and exploring glossary terms with search and categories.",
+  link: "https://github.com/sankalpa03/my_pasal.git",
+  image: "/project3.png" 
 }
- 
-]
+
+
+
+];
+
 const Projects = () => (
   <section id="projects">
     <h2>Projects</h2>
     <div className="projects-container">
       {projects.map((p, i) => (
         <div key={i} className="project-card">
+          {p.image && <img src={p.image} alt={p.title} className="project-image" />}
           <h3>{p.title}</h3>
           <p>{p.desc}</p>
           {p.link && <a href={p.link} target="_blank" rel="noreferrer" className="project-link">View Project &rarr;</a>}
