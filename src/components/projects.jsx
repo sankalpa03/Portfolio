@@ -37,7 +37,7 @@ const Projects = () => (
           <h3>{p.title}</h3>
           <p>{p.desc}</p>
           {p.link && <a href={p.link} target="_blank" rel="noreferrer" className="project-link">View Project &rarr;</a>}
-          {p.demo && <a href={p.demo} target="_blank" rel="noreferrer" className="project-demo">Demo &rarr;</a>}
+          {p.demo && (<a href={p.demo} target="_blank" rel="noreferrer" className="project-demo">Demo &rarr;</a>)}
         </div>
       ))}
     </div>
