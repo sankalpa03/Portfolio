@@ -385,7 +385,7 @@ section p {
   margin-bottom: 2rem;
 }
 
-.project-card .project-link {
+.project-card .project-link .project-demo{
   display: inline-block;
   color: var(--primary-color);
   font-weight: 600;
