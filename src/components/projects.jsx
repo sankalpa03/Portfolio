@@ -25,7 +25,8 @@ const projects = [
 
 const Projects = () => (
   <section id="projects">
-    <h2>Projects</h2>
+    <h2 className="section-title">Projects</h2>
+
     <div className="projects-container">
       {projects.map((p, i) => (
         <div key={i} className="project-card">
@@ -36,27 +37,28 @@ const Projects = () => (
               className="project-image"
             />
           )}
+
           <h3>{p.title}</h3>
           <p>{p.desc}</p>
 
           <div className="project-links">
-           <a {p.link && (
-            
+            {p.link && (
+              <a
                 href={p.link}
                 target="_blank"
                 rel="noreferrer"
-                className="project-link"
+                className="project-link view"
               >
-                GitHub →
+                View Project →
               </a>
             )}
 
-           <a> {p.demo && (
-            
+            {p.demo && (
+              <a
                 href={p.demo}
                 target="_blank"
                 rel="noreferrer"
-                className="project-demo"
+                className="project-link demo"
               >
                 Live Demo →
               </a>
