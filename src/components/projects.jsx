@@ -56,7 +56,7 @@ const Projects = () => (
                 href={p.demo}
                 target="_blank"
                 rel="noreferrer"
-                className="project-link"
+                className="project-demo"
               >
                 Live Demo →
               </a>
