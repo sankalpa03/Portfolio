@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id="footer">
       <div className="footer-icons">
         {/* GitHub */}
-        <a href="https://github.com/sankalpa03" target="_blank" rel="noreferrer">
+        <a href="https://github.com/sankalpa-bhandaari" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
 
